@@ -1,0 +1,104 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0008ffdf;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#search-container {
+    margin: 1em 0;
+    text-align: center;
+}
+
+#search-input {
+    padding: 0.5em;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #0008ffdf;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0008ffdf;
+}
+
+main {
+    padding: 2em;
+}
+
+#collection {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+#book-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#book-list li {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+#book-list li:hover {
+    background-color: #e0e0e0;
+}
+
+#book-list img {
+    margin-right: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#book-list img:hover {
+    transform: scale(1.05);
+}
+
+#book-list a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#book-list a:hover {
+    color: #0008ffdf;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    margin-top: 2em;
+}
